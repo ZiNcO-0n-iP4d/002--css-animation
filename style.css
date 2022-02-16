@@ -1,0 +1,24 @@
+body{
+    background-image: url(bg.webp);
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.mario-container{
+    width: 120px;
+    position: absolute;
+    left: 10%;
+    top: 96%;
+    /* forwards the animation remain in the state of the end */
+    animation: MarioStill 4s  infinite;
+  }
+
+  .mario-container img{
+    width: 100%;
+  }
+
+
+
+
+
